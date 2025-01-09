@@ -1,6 +1,6 @@
 # Vision Transformers Models
 ## ViT Classification models (ViT)
-> As the transformer architecture in Nlp, the same architecture was appiled to images by creating small patches of the images and treating them as token. ViT decomposes each image into a sequence of token (non-overlapping patches) with a fixed length and the applies multiple standard Transformer layers, consisting of Multi-head Self Attention and Position-wise Feed-forward module to model global relations for classification.
+As the transformer architecture in Nlp, the same architecture was appiled to images by creating small patches of the images and treating them as token. ViT decomposes each image into a sequence of token (non-overlapping patches) with a fixed length and the applies multiple standard Transformer layers, consisting of Multi-head Self Attention and Position-wise Feed-forward module to model global relations for classification. [Link HunggingFace](https://huggingface.co/docs/transformers/tasks/image_classification)
 ## Swin Transformers models for multi-label classification
 Swin transformer architecture optimizers for latency and performance using a shifted window approach which reduces the number of operation required. Swin is considered a hierarchical backbone for computer vision. Swin can be used for tasks like image classification.
 ## Convolutional Vision Transformer (CvT)
